@@ -10,6 +10,7 @@
             <div class="col-12">
 
                 <div class="single-welcome-slide">
+                    @isset($blogOne)
                     <div class="row no-gutters">
                         <div class="col-12 col-lg-8">
                             <div class="welcome-post">
@@ -23,7 +24,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        @endisset
                         <div class="col-12 col-lg-4">
 
                             <div class="welcome-posts--">
