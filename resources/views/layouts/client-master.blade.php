@@ -51,7 +51,7 @@
 
                 <nav class="classy-navbar justify-content-between" id="viralnewsNav">
 
-                    <a class="nav-brand"  href="{{route('blogIndex')}}"><img src="{{asset('client-site/img/core-img/logo.png')}}" alt="Logo" style="max-height: 60px"></a>
+                    <a class="nav-brand"  href="{{route('blogIndex')}}"><img src="{{asset('client-site/img/core-img/logo.png')}}" alt="Logo" style="max-height: 35px">{{config('app.name')}}</a>
 
                     <div class="classy-navbar-toggler">
                         <span class="navbarToggler"><span></span><span></span><span></span></span>
